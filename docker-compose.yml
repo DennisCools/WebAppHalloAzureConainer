@@ -1,0 +1,6 @@
+﻿services:
+  webapphalloazureconainer:
+    image: webapphalloazureconainer
+    build:
+      context: .
+      dockerfile: WebAppHalloAzureConainer/Dockerfile
